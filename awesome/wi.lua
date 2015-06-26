@@ -241,8 +241,8 @@ mailicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.ut
 mailwidget = lain.widgets.imap({
     timeout  = 180,
     server   = "mail.google.com",
-    mail     = "aaftty0@gmail.com",
-    password = "ramses2aaf",
+    mail     = "email",
+    password = "password",
     settings = function()
         if mailcount > 0 then
             mailicon:set_image(beautiful.widget_mail)
